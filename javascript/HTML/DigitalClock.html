@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/digitalclock.css">
+</head>
+
+<body>
+    <h1 class="h1">
+        <b><i>Digital Clock</b> </i>
+    </h1>
+
+    <div class="outer-div">
+        <div id="current_time">
+        </div>
+        <div id="setalarm">
+            <div class="alaram_time">
+                <input type="number" id="hours" placeholder="hours"> :
+                <input type="number" id="minutes" placeholder="minutes">
+            </div>
+        </div>
+        <div id =set_alarm_time>
+        </div>
+        <div>
+            <audio id="alarmAudio" controls>
+                <source src="..\imagefolderinjs\AUDIO.mp3" type="Audio/mp3">
+            </audio>
+        </div> 
+        <button id="button" onclick="set_alarm()"> set the alarm</button>
+        <script src="../javascript/DigitalClock.js" class="text">
+        </script>
+
+    </div>
+
+</body>
+
+</html>

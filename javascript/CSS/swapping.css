@@ -1,0 +1,36 @@
+#a,
+#b,
+#button {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 200px;
+    color: white;
+    background-color: black;
+}
+
+#button {
+    border-radius: 10%;
+    width:150px; 
+    height:40px;
+}
+.outer_div{
+    margin-top: 40px;
+    border:3px solid black;
+    width:500px;
+    height:300px;
+    margin-left: 400px;
+    background:linear-gradient(45deg,#0d0d0d,#001f3f);
+    
+}
+.label{
+    margin-left:40px;
+    color:white
+}body{
+    background: linear-gradient(to right, #000000, #34495e);
+}
+#h1{
+    font-size: 50px;
+    margin-top:80px;
+    margin-left: 360px;
+    color:white;
+}

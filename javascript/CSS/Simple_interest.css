@@ -1,0 +1,74 @@
+.label{
+    color :white;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+#p{
+   margin-top: 40px;
+   margin-left:  100px;
+   width:200px;
+   height: 20px;
+   margin-top: 40px;
+   color: white;
+   text-align: center;
+   background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));
+}
+#r{
+    margin-left: 122px;
+    width:200px;
+    height: 20px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));
+}
+#t{
+    margin-left: 117px;
+    width:200px;
+    height: 20px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));
+
+}
+#si{
+
+    margin-left: 50px;
+    width:200px;
+    height: 20px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));
+
+
+}
+.outer{ 
+   
+    margin-top: 70px;
+    margin-left:400px;
+    border:1px solid black;
+    width:600px;
+    height: 400px;
+    background-color: black;
+
+}
+#button{
+    width:200px;
+    height:40px;
+    margin-top: 50px;
+    margin-left: 80px;
+    border:2px solid violet;
+    background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));
+    color: white;
+}
+.h1{
+    line-height: 50px;
+    color: white;  
+    font-size:50px ;
+    text-align: center;
+}
+ body{
+        background:linear-gradient(to right,rgb(197, 0, 33),rgb(102, 15, 102));     
+    }

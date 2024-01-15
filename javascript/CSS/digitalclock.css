@@ -1,0 +1,93 @@
+.outer-div{
+    width:500px;
+    height:600px;
+    font-size:50px;
+    color:white;
+    line-height: normal;
+   
+    border:10px solid brown;
+    margin-top: 90px;
+    margin-left:400px;
+    border-radius: 20px;
+    animation: borderChange 1s infinite;
+    background-image: url(../imagefolderinjs/suk.jpg); 
+    background-size: 35rem;
+}
+body{
+    background:linear-gradient(to right,rgb(153, 36, 55),rgb(179, 64, 179),rgb(35, 129, 129),rgb(38, 214, 214),rgb(199, 139, 139),rgb(197, 49, 197));
+}
+.text{
+    margin-left: 50px;
+}
+@keyframes borderChange {
+    0% {
+        border-color: rgb(190, 23, 23);
+    }
+    25% {
+        border-color: rgb(255, 32, 69);
+    }
+    50% {
+        border-color: rgb(39, 126, 39);
+    }
+    75% {
+        border-color: rgb(158, 158, 59);
+    }
+    100% {
+        border-color: rgb(129, 29, 129);
+    }
+}
+.alaram_time{
+    margin-top: 290px;
+    margin-left: 55px;
+   
+}
+#hours,#minutes{
+    height:30px;
+    width:170px;
+    background-color: black;
+    color:white;
+}
+#button{
+    height:50px;
+    margin-left:120px ;
+    width:230px;
+    border-radius: 25px;
+    background-color: black;
+    color:white;
+    border: 10px red;
+}
+#hours:hover{
+    background-color: rgb(182, 36, 60);
+    color:rgb(20, 15, 15)
+
+}
+#minutes:hover{
+    background-color: rgb(182, 36, 60);
+    color:black;
+}
+#button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.h1{
+    color:rgb(36, 36, 97);
+    margin-left: 450px;
+    font-size: 60px;
+}
+#set_alarm_time {
+    font-size: 24px;
+    margin-top: 10px;
+    color: red;
+}
+
+ #alarmAudio {
+    display: none; 
+}  
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+.outer{
+    margin-left: 300px;
+    width:700px;
+    height:400px;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    border-left: 10px solid rgb(153, 9, 33);
+    border-right:10px solid rgb(153, 9, 33);
+    background:linear-gradient(to right, rgb(112, 61, 68), rgb(88, 43, 88), rgb(99, 56, 56));
+
+  
+}
+.h1{
+    font-size: 50px;
+}
+.Name{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.Password{
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+#name{
+    margin-left: 80px;
+    width:300px;
+    height: 20px;
+    background-color: black;
+    color:white;
+}
+#password{
+    margin-left: 60px;
+    width:300px;
+    height: 20px;
+    background-color: black;
+    color:white;
+}
+#button{
+    margin-left: 55px;
+    margin-top: 40px;
+    width: 250px;
+    height:45px;
+    border: 1px solid black;
+    border-bottom: 5px solid rgb(165, 40, 40);
+    border-top: 5px solid rgb(184, 31, 31);
+    border-left:5px solid blue;
+    border-right: 5px solid blue;
+    border-radius: 20px;
+   background:linear-gradient(to right ,rgb(100, 20, 35),rgb(163, 40, 163), rgb(88, 88, 110));
+    color: white;
+}body{
+    background:linear-gradient(to right,red,blue,pink,rgb(95, 52, 95),rgb(126, 52, 52),rgb(112, 100, 34));
+}
+
